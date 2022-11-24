@@ -27,6 +27,7 @@ jobs:
         working-directory: pulumi
 
       - name: provision aws resources
+        id: pulumi
         uses: pulumi/actions@v3
         with:
           command: up
