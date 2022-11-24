@@ -14,8 +14,6 @@ jobs:
 
       - name: setup nodejs environment
         uses: actions/setup-node@v3.5.1
-        with:
-          node-version-file: package.json
       
       - name: configure credentials
         uses: aws-actions/configure-aws-credentials@v1
